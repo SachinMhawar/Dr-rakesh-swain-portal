@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitConnect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+
+      <div class="bg-img">
+        <div class="logo-img">
+          <img src="images/logo (1).png" alt="logo">
+        </div>
+
+        <h3 class="heading-top">"Your health is my priority"</h3>
+
+        <div class="dr-img">
+          <img src="images/abc.jpg" alt="Dr. Rakesh" class="dr-rakesh">
+        </div>
+      </div>
+
+      <div class="heading">
+        <h3>Rakesh Keshari<br> Swain</h3>
+        <h4>MBBS, MD (Medicine) <br><p>Marika Hospital</p></h4>
+
+      </div>
+
+    </div>
+  </header>
+
+  <section class="guide-section">
+  <h2>
+    "Essential <span>Guide To Healthy<br>Living</span>"
+  </h2>
+
+  
+<section class="care-section">
+   <!-- Card 1 -->
+  <div class="care-card">
+    <img src="images/care-for-diabetes.png" alt="Diabetes">
+    <a href="#" class="download-btn" onclick="openPopup('diabetes')">⬇ DOWNLOAD</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="care-card">
+    <img src="images/care-for-dyslipidemia.png" alt="Dyslipidemia">
+    <a href="#" class="download-btn" onclick="openPopup('dyslipidemi')">⬇ DOWNLOAD</a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="care-card">
+    <img src="images/care-for-hypertension.png" alt="Hypertension">
+    <a href="#" class="download-btn" onclick="openPopup('hypertension')">⬇ DOWNLOAD</a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="care-card">
+    <img src="images/care-for-obesity.png" alt="Obesity">
+    <a href="#" class="download-btn" onclick="openPopup('obesity')">⬇ DOWNLOAD</a>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="care-card">
+    <img src="images/live-yoga-session.png" alt="Yoga Live">
+    <a href="https://www.mytri.co.in/vitconnect/" class="download-btn">▶ Click Here</a>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="care-card">
+    <img src="images/recorded-video.png" alt="Yoga Recorded">
+    <a href="https://www.youtube.com/@VITCONNECT_DAILY_YOGA/streams" class="download-btn">▶ Click Here</a>
+  </div>
+</section>
+
+<!-- POPUP Modal -->
+<div id="pdfPopup" class="popup" style="display:none;">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <h2>Please Select PDF Language To Download</h2>
+    <div id="language-buttons"></div>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+ <div class="social-sidebar">
+  <a href="#" class="social-share" title="Share"><i class="fa fa-share-alt"></i></a>
+  <a href="https://facebook.com" target="_blank" class="social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://x.com" target="_blank" class="social-x" title="X"><i class="fab fa-twitter"></i></a>
+  <a href="mailto:someone@example.com" class="social-email" title="Email"><i class="fa fa-envelope"></i></a>
+  <a href="https://wa.me/?text=Check%20this%20out" target="_blank" class="social-whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
